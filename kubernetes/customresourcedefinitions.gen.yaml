@@ -317,7 +317,6 @@ spec:
                                         - maglev
                                     properties:
                                       minimumRingSize: {}
-                                      maximumRingSize: {}
                                 required:
                                 - consistentHash
                           - required:
@@ -357,7 +356,6 @@ spec:
                                     - maglev
                                 properties:
                                   minimumRingSize: {}
-                                  maximumRingSize: {}
                             required:
                             - consistentHash
                           properties:
@@ -399,8 +397,6 @@ spec:
                                     implements consistent hashing to backend hosts.
                                   properties:
                                     minimumRingSize:
-                                      type: integer
-                                    maximumRingSize:
                                       type: integer
                                   type: object
                                 useSourceIp:
@@ -617,7 +613,6 @@ spec:
                                               - maglev
                                           properties:
                                             minimumRingSize: {}
-                                            maximumRingSize: {}
                                       required:
                                       - consistentHash
                                 - required:
@@ -657,7 +652,6 @@ spec:
                                           - maglev
                                       properties:
                                         minimumRingSize: {}
-                                        maximumRingSize: {}
                                   required:
                                   - consistentHash
                                 properties:
@@ -702,8 +696,6 @@ spec:
                                           hosts.
                                         properties:
                                           minimumRingSize:
-                                            type: integer
-                                          maximumRingSize:
                                             type: integer
                                         type: object
                                       useSourceIp:
@@ -1007,7 +999,6 @@ spec:
                                   - maglev
                               properties:
                                 minimumRingSize: {}
-                                maximumRingSize: {}
                           required:
                           - consistentHash
                     - required:
@@ -1047,7 +1038,6 @@ spec:
                               - maglev
                           properties:
                             minimumRingSize: {}
-                            maximumRingSize: {}
                       required:
                       - consistentHash
                     properties:
@@ -1088,8 +1078,6 @@ spec:
                               consistent hashing to backend hosts.
                             properties:
                               minimumRingSize:
-                                type: integer
-                              maximumRingSize:
                                 type: integer
                             type: object
                           useSourceIp:
@@ -1301,7 +1289,6 @@ spec:
                                         - maglev
                                     properties:
                                       minimumRingSize: {}
-                                      maximumRingSize: {}
                                 required:
                                 - consistentHash
                           - required:
@@ -1341,7 +1328,6 @@ spec:
                                     - maglev
                                 properties:
                                   minimumRingSize: {}
-                                  maximumRingSize: {}
                             required:
                             - consistentHash
                           properties:
@@ -1383,8 +1369,6 @@ spec:
                                     implements consistent hashing to backend hosts.
                                   properties:
                                     minimumRingSize:
-                                      type: integer
-                                    maximumRingSize:
                                       type: integer
                                   type: object
                                 useSourceIp:
@@ -1742,7 +1726,6 @@ spec:
                                         - maglev
                                     properties:
                                       minimumRingSize: {}
-                                      maximumRingSize: {}
                                 required:
                                 - consistentHash
                           - required:
@@ -1782,7 +1765,6 @@ spec:
                                     - maglev
                                 properties:
                                   minimumRingSize: {}
-                                  maximumRingSize: {}
                             required:
                             - consistentHash
                           properties:
@@ -1824,8 +1806,6 @@ spec:
                                     implements consistent hashing to backend hosts.
                                   properties:
                                     minimumRingSize:
-                                      type: integer
-                                    maximumRingSize:
                                       type: integer
                                   type: object
                                 useSourceIp:
@@ -2042,7 +2022,6 @@ spec:
                                               - maglev
                                           properties:
                                             minimumRingSize: {}
-                                            maximumRingSize: {}
                                       required:
                                       - consistentHash
                                 - required:
@@ -2082,7 +2061,6 @@ spec:
                                           - maglev
                                       properties:
                                         minimumRingSize: {}
-                                        maximumRingSize: {}
                                   required:
                                   - consistentHash
                                 properties:
@@ -2127,8 +2105,6 @@ spec:
                                           hosts.
                                         properties:
                                           minimumRingSize:
-                                            type: integer
-                                          maximumRingSize:
                                             type: integer
                                         type: object
                                       useSourceIp:
@@ -2432,7 +2408,6 @@ spec:
                                   - maglev
                               properties:
                                 minimumRingSize: {}
-                                maximumRingSize: {}
                           required:
                           - consistentHash
                     - required:
@@ -2472,7 +2447,6 @@ spec:
                               - maglev
                           properties:
                             minimumRingSize: {}
-                            maximumRingSize: {}
                       required:
                       - consistentHash
                     properties:
@@ -2513,8 +2487,6 @@ spec:
                               consistent hashing to backend hosts.
                             properties:
                               minimumRingSize:
-                                type: integer
-                              maximumingSize:
                                 type: integer
                             type: object
                           useSourceIp:
@@ -2726,7 +2698,6 @@ spec:
                                         - maglev
                                     properties:
                                       minimumRingSize: {}
-                                      maximumRingSize: {}
                                 required:
                                 - consistentHash
                           - required:
@@ -2766,7 +2737,6 @@ spec:
                                     - maglev
                                 properties:
                                   minimumRingSize: {}
-                                  maximumRingSize: {}
                             required:
                             - consistentHash
                           properties:
@@ -2808,8 +2778,6 @@ spec:
                                     implements consistent hashing to backend hosts.
                                   properties:
                                     minimumRingSize:
-                                      type: integer
-                                    maximumRingSize:
                                       type: integer
                                   type: object
                                 useSourceIp:
