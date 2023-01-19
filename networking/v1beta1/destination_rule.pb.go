@@ -2156,6 +2156,12 @@ type LoadBalancerSettings_ConsistentHashLB_RingHash struct {
 	// pool is larger than the ring size, each host will be assigned a
 	// single virtual node.
 	MinimumRingSize uint64 `protobuf:"varint,1,opt,name=minimum_ring_size,json=minimumRingSize,proto3" json:"minimum_ring_size,omitempty"`
+
+	// The maximum number of virtual nodes to use for the hash ring. 
+	// Defaults to 8M entries, and limited to 8M entries, but can be 
+	// lowered to further constrain resource use.
+	MaximumRingSize uint64 `protobuf:"varint,2,opt,name=minimum_ring_size,json=maximumRingSize,proto3" json:"maximum_ring_size,omitempty"`
+
 }
 
 func (x *LoadBalancerSettings_ConsistentHashLB_RingHash) Reset() {
@@ -2193,6 +2199,13 @@ func (*LoadBalancerSettings_ConsistentHashLB_RingHash) Descriptor() ([]byte, []i
 func (x *LoadBalancerSettings_ConsistentHashLB_RingHash) GetMinimumRingSize() uint64 {
 	if x != nil {
 		return x.MinimumRingSize
+	}
+	return 0
+}
+
+func (x *LoadBalancerSettings_ConsistentHashLB_RingHash) GetMaximumRingSize() uint64 {
+	if x != nil {
+		return x.MaximumRingSize
 	}
 	return 0
 }
